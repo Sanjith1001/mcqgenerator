@@ -8,7 +8,7 @@ load_dotenv()
 import streamlit as st
 from src.mcqgenerator.utils import read_file, get_table_data
 from mcqgenerator.mcqgenerator import generate_evaluate_chain
-from mcqgenerator.logger import logging
+# from mcqgenerator.logger import logging
 
 # Load response schema (if needed)
 with open("response.json", "r") as f:
