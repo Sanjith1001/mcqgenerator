@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     author='Sanjith',
     author_email='sanjithpalateru10@gmail.com',
-    install_requires=["openai","langchain","streamlit","python-dotenv","PyPDF2"],
+    install_requires=["groq","langchain","streamlit","python-dotenv","PyPDF2"],
     packages=["mcqgenerator"],
     package_dir={"": "src"}
 )
